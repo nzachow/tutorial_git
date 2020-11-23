@@ -12,3 +12,7 @@ func add(x int, y int) int {
 func main() {
 	fmt.Println("My favorite number is", rand.Intn(10))
 }
+
+func sub(x int, y int) int {
+	return x - y
+}
