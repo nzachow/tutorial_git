@@ -5,12 +5,12 @@ import (
 	"math/rand"
 )
 
-func add(x int, y int) int {
+func add(x, y int) int {
 	return x + y
 }
 
 func main() {
-	fmt.Println("My favorite number is", rand.Intn(20))
+	fmt.Println("My favorite number is", rand.Intn(30))
 }
 
 func sub(x int, y int) int {
